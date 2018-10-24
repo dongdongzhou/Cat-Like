@@ -6,7 +6,8 @@ public enum GraphFunctions
     Sine2D,
     MultiSine,
     MultiSine2D,
-    Ripple
+    Ripple,
+    Cylinder
 }
 
 
@@ -85,9 +86,10 @@ public class FunctionSelector : MonoBehaviour
     public Vector3 Cylinder(float u, float v, float t)
     {
         Vector3 p;
-        p.x = Mathf.Sin(pi * u);
-        p.y = u;
-        p.z = Mathf.Cos(pi * u);
+        float r = 1f;
+        p.x = r* Mathf.Sin(pi * u);
+        p.y = v;
+        p.z = r* Mathf.Cos(pi * u);
         return p;
     }
 
@@ -99,7 +101,8 @@ public class FunctionSelector : MonoBehaviour
                          Sine2D,
                          MultiSine,
                          MultiSine2D,
-                         Ripple
+                         Ripple,
+                         Cylinder
                      };
         MyFunction = GraphFuncs[(int) selectedFunction];
     }
