@@ -68,7 +68,6 @@
     <Compile Include="Assets\Graph\Scripts\ConditionalFieldAttributeDrawer.cs" />
     <Compile Include="Assets\Graph\Scripts\FunctionSelector.cs" />
     <Compile Include="Assets\Graph\Scripts\Graph.cs" />
-    <Compile Include="Assets\QHierarchy\Scripts\QObjectList.cs" />
     <Compile Include="Assets\TestEvent.cs" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>D:/ZLearning/Unity Learning/CatLike/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
