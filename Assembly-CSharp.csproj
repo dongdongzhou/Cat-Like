@@ -63,6 +63,7 @@
     <Compile Include="Assets\Clock\Scripts\Clock.cs" />
     <Compile Include="Assets\Clock\Scripts\CreateIndicators.cs" />
     <Compile Include="Assets\Clock\Scripts\TransformExtensions.cs" />
+    <Compile Include="Assets\Fractal\Fractal.cs" />
     <Compile Include="Assets\Graph\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Graph\Scripts\ConditionalFieldAttribute.cs" />
     <Compile Include="Assets\Graph\Scripts\ConditionalFieldAttributeDrawer.cs" />
